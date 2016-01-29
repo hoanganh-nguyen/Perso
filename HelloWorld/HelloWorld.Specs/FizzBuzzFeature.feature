@@ -5,4 +5,4 @@
 Scenario: Enter zero
 	Given I have entered 0
 	When I call FizzBuzzTranslator
-	Then the result should be "0"
+	Then the result should be 0

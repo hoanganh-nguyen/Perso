@@ -11,6 +11,8 @@ namespace HelloWorld
         public string GetFizzBuzz(int i)
         {
             StringBuilder sb = new StringBuilder();
+            if (i == 0)
+                return "0";
             if (i % 15 == 0)
             {
                 return "FizzBuzz";
