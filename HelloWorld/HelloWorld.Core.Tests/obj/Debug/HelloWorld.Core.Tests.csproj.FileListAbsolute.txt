@@ -1,0 +1,7 @@
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.pdb
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\bin\Debug\nunit.framework.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\bin\Debug\nunit.framework.xml
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\obj\Debug\HelloWorld.Core.Tests.csprojResolveAssemblyReference.cache
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\obj\Debug\HelloWorld.Core.Tests.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Core.Tests\obj\Debug\HelloWorld.Core.Tests.pdb

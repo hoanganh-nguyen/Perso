@@ -1,0 +1,9 @@
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\HelloWorld.Specs.dll.config
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\HelloWorld.Specs.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\HelloWorld.Specs.pdb
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\nunit.framework.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\bin\Debug\nunit.framework.xml
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\obj\Debug\HelloWorld.Specs.csprojResolveAssemblyReference.cache
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\obj\Debug\HelloWorld.Specs.dll
+c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld.Specs\obj\Debug\HelloWorld.Specs.pdb
