@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="15" visitedSequencePoints="8" numBranchPoints="9" visitedBranchPoints="4" sequenceCoverage="53.33" branchCoverage="44.44" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="1D-A5-B7-AD-2A-0A-94-95-46-18-54-5A-A0-42-F0-E4-82-00-13-E8">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A2-D1-55-AA-16-B0-25-83-4D-9C-49-66-8B-84-5A-7D-78-2C-EA-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit3-console.exe</ModulePath>
+      <ModuleTime>2015-12-01T20:41:16Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4C-59-B7-5C-AF-0C-72-D6-7E-ED-4D-87-55-B7-49-31-7E-69-0F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-1E-2B-2F-B0-E1-27-09-9F-B5-76-AA-05-24-FC-3A-42-E5-97-A4">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-6C-1C-19-51-5A-84-96-A5-32-27-C8-37-9B-06-6D-5D-58-56-BD">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_fr_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2015-06-19T23:05:42Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-7C-50-4B-F1-9F-44-D6-53-A0-86-3B-B1-FC-68-7E-74-0B-0F-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-6B-7E-F8-5B-AD-52-41-5E-C0-75-70-DD-97-65-29-2B-75-6E-FE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2015-08-25T14:18:18Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E0-F1-79-63-0F-43-2B-D0-42-64-3B-65-A6-A2-45-73-1F-DD-FC-3F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AD-56-8F-5F-20-FC-6D-01-BA-F5-88-25-06-84-53-56-62-E9-A7-DA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="56-B2-58-FB-C8-01-52-E7-13-13-22-7A-1A-87-A6-B8-E9-02-0A-36">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\addins\nunit-v2-result-writer.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit-v2-result-writer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-A5-B7-AD-2A-0A-94-95-46-18-54-5A-A0-42-F0-E4-82-00-13-E8">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F3-B4-92-C3-8F-38-B5-60-40-1E-E2-34-0E-37-2E-20-B5-58-BD-A5">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit-agent.exe</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-1E-2B-2F-B0-E1-27-09-9F-B5-76-AA-05-24-FC-3A-42-E5-97-A4">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E0-F1-79-63-0F-43-2B-D0-42-64-3B-65-A6-A2-45-73-1F-DD-FC-3F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4C-59-B7-5C-AF-0C-72-D6-7E-ED-4D-87-55-B7-49-31-7E-69-0F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-7C-50-4B-F1-9F-44-D6-53-A0-86-3B-B1-FC-68-7E-74-0B-0F-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-6B-7E-F8-5B-AD-52-41-5E-C0-75-70-DD-97-65-29-2B-75-6E-FE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2015-08-25T14:18:18Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AD-56-8F-5F-20-FC-6D-01-BA-F5-88-25-06-84-53-56-62-E9-A7-DA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-6C-1C-19-51-5A-84-96-A5-32-27-C8-37-9B-06-6D-5D-58-56-BD">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_fr_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2015-06-19T23:05:42Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-1E-2B-2F-B0-E1-27-09-9F-B5-76-AA-05-24-FC-3A-42-E5-97-A4">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="51-EA-82-63-27-09-B5-37-4D-93-77-13-BE-FC-F6-D5-5A-53-E5-CD">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.dll</ModulePath>
+      <ModuleTime>2016-02-03T14:07:49.1130791Z</ModuleTime>
+      <ModuleName>HelloWorld.Core.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="00-59-52-F7-F5-CD-AF-CB-91-80-2E-6C-08-2C-26-AC-3F-47-FE-65">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Core.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-02-01T17:09:32.5532927Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4C-59-B7-5C-AF-0C-72-D6-7E-ED-4D-87-55-B7-49-31-7E-69-0F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-6B-7E-F8-5B-AD-52-41-5E-C0-75-70-DD-97-65-29-2B-75-6E-FE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="51-EA-82-63-27-09-B5-37-4D-93-77-13-BE-FC-F6-D5-5A-53-E5-CD">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.dll</ModulePath>
+      <ModuleTime>2016-02-03T14:07:49.1130791Z</ModuleTime>
+      <ModuleName>HelloWorld.Core.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B7-10-4F-1B-6D-57-21-B9-85-03-68-4E-D4-19-A6-00-93-3C-4E-7D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-7C-50-4B-F1-9F-44-D6-53-A0-86-3B-B1-FC-68-7E-74-0B-0F-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-A5-B7-AD-2A-0A-94-95-46-18-54-5A-A0-42-F0-E4-82-00-13-E8">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F3-B4-92-C3-8F-38-B5-60-40-1E-E2-34-0E-37-2E-20-B5-58-BD-A5">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit-agent.exe</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-1E-2B-2F-B0-E1-27-09-9F-B5-76-AA-05-24-FC-3A-42-E5-97-A4">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E0-F1-79-63-0F-43-2B-D0-42-64-3B-65-A6-A2-45-73-1F-DD-FC-3F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4C-59-B7-5C-AF-0C-72-D6-7E-ED-4D-87-55-B7-49-31-7E-69-0F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-7C-50-4B-F1-9F-44-D6-53-A0-86-3B-B1-FC-68-7E-74-0B-0F-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-6B-7E-F8-5B-AD-52-41-5E-C0-75-70-DD-97-65-29-2B-75-6E-FE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2015-08-25T14:18:18Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AD-56-8F-5F-20-FC-6D-01-BA-F5-88-25-06-84-53-56-62-E9-A7-DA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-6C-1C-19-51-5A-84-96-A5-32-27-C8-37-9B-06-6D-5D-58-56-BD">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_fr_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2015-06-19T23:05:42Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-0D-F2-3F-C0-76-04-4D-C6-65-B7-47-37-C5-EC-DD-FF-4D-5F-C1">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-1E-2B-2F-B0-E1-27-09-9F-B5-76-AA-05-24-FC-3A-42-E5-97-A4">
+      <ModulePath>C:\Dev\ci_test\tools\NUnit\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2015-12-01T20:41:14Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-86-0A-C9-78-65-66-E2-5E-18-A0-25-7D-5B-7B-05-18-49-94-FA">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Tests\bin\Debug\HelloWorld.Tests.dll</ModulePath>
+      <ModuleTime>2016-02-03T14:07:48.7370415Z</ModuleTime>
+      <ModuleName>HelloWorld.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="00-59-52-F7-F5-CD-AF-CB-91-80-2E-6C-08-2C-26-AC-3F-47-FE-65">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-02-01T17:09:32.5532927Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4C-59-B7-5C-AF-0C-72-D6-7E-ED-4D-87-55-B7-49-31-7E-69-0F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-6B-7E-F8-5B-AD-52-41-5E-C0-75-70-DD-97-65-29-2B-75-6E-FE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:04:44Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-86-0A-C9-78-65-66-E2-5E-18-A0-25-7D-5B-7B-05-18-49-94-FA">
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Tests\bin\Debug\HelloWorld.Tests.dll</ModulePath>
+      <ModuleTime>2016-02-03T14:07:48.7370415Z</ModuleTime>
+      <ModuleName>HelloWorld.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B7-10-4F-1B-6D-57-21-B9-85-03-68-4E-D4-19-A6-00-93-3C-4E-7D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-7C-50-4B-F1-9F-44-D6-53-A0-86-3B-B1-FC-68-7E-74-0B-0F-A3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-06-19T22:14:56Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="CA-12-3C-52-A3-AE-40-DB-68-86-F7-66-6C-B3-65-86-D7-D2-21-36">
+      <Summary numSequencePoints="15" visitedSequencePoints="8" numBranchPoints="9" visitedBranchPoints="4" sequenceCoverage="53.33" branchCoverage="44.44" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <ModulePath>C:\Dev\ci_test\HelloWorld.Tests\bin\Debug\HelloWorld.dll</ModulePath>
+      <ModuleTime>2016-02-03T14:07:48.482016Z</ModuleTime>
+      <ModuleName>HelloWorld</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\Dev\ci_test\HelloWorld\FizzBuzz.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="8" numBranchPoints="9" visitedBranchPoints="4" sequenceCoverage="53.33" branchCoverage="44.44" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>HelloWorld.FizzBuzz</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="53.33" branchCoverage="44.44" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="8" numBranchPoints="9" visitedBranchPoints="4" sequenceCoverage="53.33" branchCoverage="44.44" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.String HelloWorld.FizzBuzz::GetFizzBuzz(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="52" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="7" sl="14" sc="13" el="14" ec="24" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="18" sl="15" sc="17" el="15" ec="28" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="26" sl="16" sc="13" el="16" ec="29" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="0" uspid="6" ordinal="5" offset="40" sl="17" sc="13" el="17" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="7" ordinal="6" offset="41" sl="18" sc="17" el="18" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="8" ordinal="7" offset="49" sl="20" sc="18" el="20" ec="33" bec="2" bev="1" fileid="1" />
+                <SequencePoint vc="1" uspid="9" ordinal="8" offset="62" sl="21" sc="13" el="21" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="10" ordinal="9" offset="63" sl="22" sc="17" el="22" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="10" offset="71" sl="24" sc="18" el="24" ec="33" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="11" offset="84" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="13" ordinal="12" offset="85" sl="26" sc="17" el="26" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="14" ordinal="13" offset="93" sl="28" sc="13" el="28" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="15" ordinal="14" offset="103" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="16" ordinal="0" offset="16" sl="14" path="0" offsetend="18" fileid="1" />
+                <BranchPoint vc="1" uspid="17" ordinal="1" offset="16" sl="14" path="1" offsetend="26" fileid="1" />
+                <BranchPoint vc="0" uspid="18" ordinal="2" offset="38" sl="16" path="0" offsetend="40" fileid="1" />
+                <BranchPoint vc="1" uspid="19" ordinal="3" offset="38" sl="16" path="1" offsetend="49" fileid="1" />
+                <BranchPoint vc="1" uspid="20" ordinal="4" offset="60" sl="20" path="0" offsetend="62" fileid="1" />
+                <BranchPoint vc="0" uspid="21" ordinal="5" offset="60" sl="20" path="1" offsetend="71" fileid="1" />
+                <BranchPoint vc="0" uspid="22" ordinal="6" offset="82" sl="24" path="0" offsetend="84" fileid="1" />
+                <BranchPoint vc="0" uspid="23" ordinal="7" offset="82" sl="24" path="1" offsetend="93" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void HelloWorld.FizzBuzz::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="24" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

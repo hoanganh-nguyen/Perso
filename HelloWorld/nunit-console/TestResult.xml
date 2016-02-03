@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="37" result="Failed" total="37" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.0.5813.39036" clr-version="4.0.30319.18408" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.241547">
+  <command-line><![CDATA[nunit3-console.exe  ..\EF_Model.Tests\bin\Debug\EF_Model.Tests.dll ..\Business.Tests\bin\Debug\Business.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1006" name="EF_Model.Tests.dll" fullname="C:\Dev\SVN\EF_Model.Tests\bin\Debug\EF_Model.Tests.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.111202" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.0.5813.39031" clr-version="4.0.30319.18408" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Dev\SVN\nunit-console" machine-name="ODESYS-CDS-11" user="ha.nguyen" user-domain="CDS-SG" culture="fr-FR" uiculture="fr-FR" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Dev\SVN\nunit-console" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="5700" />
+      <property name="_APPDOMAIN" value="test-domain-EF_Model.Tests.dll" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1007" name="EF_Model" fullname="EF_Model" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.092986" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1-1008" name="Tests" fullname="EF_Model.Tests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.092828" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1000" name="AnswerModelTests" fullname="EF_Model.Tests.AnswerModelTests" classname="EF_Model.Tests.AnswerModelTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:04Z" duration="0.056896" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1001" name="AnswerModelTest" fullname="EF_Model.Tests.AnswerModelTests.AnswerModelTest" methodname="AnswerModelTest" classname="EF_Model.Tests.AnswerModelTests" runstate="Runnable" seed="798259755" result="Failed" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:04Z" duration="0.035353" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[at EF_Model.Tests.AnswerModelTests.AnswerModelTest() in c:\Dev\SVN\EF_Model.Tests\AnswerModelTests.cs:line 16
+]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1002" name="ChoiceModelTest" fullname="EF_Model.Tests.ChoiceModelTest" classname="EF_Model.Tests.ChoiceModelTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.030239" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1003" name="ConstructorTest" fullname="EF_Model.Tests.ChoiceModelTest.ConstructorTest" methodname="ConstructorTest" classname="EF_Model.Tests.ChoiceModelTest" runstate="Runnable" seed="1801850340" result="Passed" start-time="2016-02-01 14:56:04Z" end-time="2016-02-01 14:56:05Z" duration="0.029925" asserts="0" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1004" name="GotoModelTests" fullname="EF_Model.Tests.GotoModelTests" classname="EF_Model.Tests.GotoModelTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2016-02-01 14:56:05Z" end-time="2016-02-01 14:56:05Z" duration="0.001465" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1005" name="GotoModelTest" fullname="EF_Model.Tests.GotoModelTests.GotoModelTest" methodname="GotoModelTest" classname="EF_Model.Tests.GotoModelTests" runstate="Runnable" seed="332551961" result="Failed" start-time="2016-02-01 14:56:05Z" end-time="2016-02-01 14:56:05Z" duration="0.001107" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[at EF_Model.Tests.GotoModelTests.GotoModelTest() in c:\Dev\SVN\EF_Model.Tests\GotoModelTests.cs:line 16
+]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+  <test-suite type="Assembly" id="1-1035" name="C:\Dev\SVN\Business.Tests\bin\Debug\Business.Tests.dll" fullname="C:\Dev\SVN\Business.Tests\bin\Debug\Business.Tests.dll" runstate="Runnable" testcasecount="34" result="Failed" duration="0.166450" total="34" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+    <properties>
+      <property name="_PID" value="3428" />
+      <property name="_APPDOMAIN" value="test-domain-Business.Tests.dll" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Namespace" id="1-1036" name="Business" fullname="Business" runstate="Runnable" testcasecount="34" result="Failed" duration="0.130430" total="34" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="Namespace" id="1-1037" name="Tests" fullname="Business.Tests" runstate="Runnable" testcasecount="34" result="Failed" duration="0.130052" total="34" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1000" name="ActivityTests" fullname="Business.Tests.ActivityTests" runstate="Runnable" testcasecount="34" result="Failed" duration="0.127840" total="34" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1001" name="ActivityTest" fullname="Business.Tests.ActivityTests.ActivityTest" runstate="Runnable" result="Failed" duration="0.035480" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.ActivityTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 16]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1034" name="BackupAllActivitiesTest" fullname="Business.Tests.ActivityTests.BackupAllActivitiesTest" runstate="Runnable" result="Failed" duration="0.000861" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.BackupAllActivitiesTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 214]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1003" name="CloseAndCommentActivityByIdTest" fullname="Business.Tests.ActivityTests.CloseAndCommentActivityByIdTest" runstate="Runnable" result="Failed" duration="0.000963" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.CloseAndCommentActivityByIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 28]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1032" name="copyTest" fullname="Business.Tests.ActivityTests.copyTest" runstate="Runnable" result="Failed" duration="0.000737" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.copyTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 202]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1020" name="CreateActivityWithCstTest" fullname="Business.Tests.ActivityTests.CreateActivityWithCstTest" runstate="Runnable" result="Failed" duration="0.000849" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.CreateActivityWithCstTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 130]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1031" name="deleteActivityByIdTest" fullname="Business.Tests.ActivityTests.deleteActivityByIdTest" runstate="Runnable" result="Failed" duration="0.000889" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.deleteActivityByIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 196]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1023" name="deleteLinkedResourceTest" fullname="Business.Tests.ActivityTests.deleteLinkedResourceTest" runstate="Runnable" result="Failed" duration="0.000934" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.deleteLinkedResourceTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 148]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1025" name="getAbsencePendingValidatedAndQuotaTimeTest" fullname="Business.Tests.ActivityTests.getAbsencePendingValidatedAndQuotaTimeTest" runstate="Runnable" result="Failed" duration="0.000926" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getAbsencePendingValidatedAndQuotaTimeTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 160]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1024" name="getActivitiesIdsByResponsibleResIdTest" fullname="Business.Tests.ActivityTests.getActivitiesIdsByResponsibleResIdTest" runstate="Runnable" result="Failed" duration="0.000947" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesIdsByResponsibleResIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 154]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1009" name="getActivitiesIdsListByResourceIdAndDateTest" fullname="Business.Tests.ActivityTests.getActivitiesIdsListByResourceIdAndDateTest" runstate="Runnable" result="Failed" duration="0.000960" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesIdsListByResourceIdAndDateTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 64]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1005" name="getActivitiesListByIdsTest" fullname="Business.Tests.ActivityTests.getActivitiesListByIdsTest" runstate="Runnable" result="Failed" duration="0.001095" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesListByIdsTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 40]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1010" name="getActivitiesListByProjectIdsListTest" fullname="Business.Tests.ActivityTests.getActivitiesListByProjectIdsListTest" runstate="Runnable" result="Failed" duration="0.000937" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesListByProjectIdsListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 70]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1011" name="getActivitiesListByProjectIdTest" fullname="Business.Tests.ActivityTests.getActivitiesListByProjectIdTest" runstate="Runnable" result="Failed" duration="0.001063" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesListByProjectIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 76]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1006" name="getActivitiesListByResourceIdAndDateTest" fullname="Business.Tests.ActivityTests.getActivitiesListByResourceIdAndDateTest" runstate="Runnable" result="Failed" duration="0.000776" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivitiesListByResourceIdAndDateTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 46]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1002" name="getActivityByIdTest" fullname="Business.Tests.ActivityTests.getActivityByIdTest" runstate="Runnable" result="Failed" duration="0.000859" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivityByIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 22]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1012" name="getActivityIdsListByProjectIdTest" fullname="Business.Tests.ActivityTests.getActivityIdsListByProjectIdTest" runstate="Runnable" result="Failed" duration="0.000975" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getActivityIdsListByProjectIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 82]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1033" name="GetCustomerIDByNumberTest" fullname="Business.Tests.ActivityTests.GetCustomerIDByNumberTest" runstate="Runnable" result="Failed" duration="0.001047" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.GetCustomerIDByNumberTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 208]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1014" name="getCustomField1ValueListTest" fullname="Business.Tests.ActivityTests.getCustomField1ValueListTest" runstate="Runnable" result="Failed" duration="0.000941" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getCustomField1ValueListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 94]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1015" name="getCustomField2ValueListTest" fullname="Business.Tests.ActivityTests.getCustomField2ValueListTest" runstate="Runnable" result="Failed" duration="0.000900" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getCustomField2ValueListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 100]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1016" name="getCustomField3ValueListTest" fullname="Business.Tests.ActivityTests.getCustomField3ValueListTest" runstate="Runnable" result="Failed" duration="0.000889" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getCustomField3ValueListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 106]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1027" name="getLinkedResourcePostIdTest" fullname="Business.Tests.ActivityTests.getLinkedResourcePostIdTest" runstate="Runnable" result="Failed" duration="0.000826" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getLinkedResourcePostIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 172]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1026" name="getLinkedResourceQuotaTest" fullname="Business.Tests.ActivityTests.getLinkedResourceQuotaTest" runstate="Runnable" result="Failed" duration="0.000958" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getLinkedResourceQuotaTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 166]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1022" name="getLinkedResourcesIdsTest" fullname="Business.Tests.ActivityTests.getLinkedResourcesIdsTest" runstate="Runnable" result="Failed" duration="0.000787" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getLinkedResourcesIdsTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 142]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1021" name="getLinkedResourcesTest" fullname="Business.Tests.ActivityTests.getLinkedResourcesTest" runstate="Runnable" result="Failed" duration="0.000862" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getLinkedResourcesTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 136]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1004" name="getNbActiveActivitiesTest" fullname="Business.Tests.ActivityTests.getNbActiveActivitiesTest" runstate="Runnable" result="Failed" duration="0.000970" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getNbActiveActivitiesTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 34]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1017" name="getNewCreatedLinksBetweenActAndResTest" fullname="Business.Tests.ActivityTests.getNewCreatedLinksBetweenActAndResTest" runstate="Runnable" result="Failed" duration="0.001144" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getNewCreatedLinksBetweenActAndResTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 112]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1008" name="getVisibleActivitiesIdByResIdTest" fullname="Business.Tests.ActivityTests.getVisibleActivitiesIdByResIdTest" runstate="Runnable" result="Failed" duration="0.001027" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getVisibleActivitiesIdByResIdTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 58]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1007" name="getVisibleActivitiesListByResourceIdAndDateTest" fullname="Business.Tests.ActivityTests.getVisibleActivitiesListByResourceIdAndDateTest" runstate="Runnable" result="Failed" duration="0.000717" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.getVisibleActivitiesListByResourceIdAndDateTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 52]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1029" name="hasFutureEntriesForResourceTest" fullname="Business.Tests.ActivityTests.hasFutureEntriesForResourceTest" runstate="Runnable" result="Failed" duration="0.000711" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.hasFutureEntriesForResourceTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 184]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1028" name="hasPastEntriesForResourceTest" fullname="Business.Tests.ActivityTests.hasPastEntriesForResourceTest" runstate="Runnable" result="Failed" duration="0.000685" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.hasPastEntriesForResourceTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 178]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1019" name="saveTest" fullname="Business.Tests.ActivityTests.saveTest" runstate="Runnable" result="Failed" duration="0.000907" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.saveTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 124]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1013" name="searchActivitiesListTest" fullname="Business.Tests.ActivityTests.searchActivitiesListTest" runstate="Runnable" result="Failed" duration="0.000803" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.searchActivitiesListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 88]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1030" name="setLinkedResourcesByIdsListTest" fullname="Business.Tests.ActivityTests.setLinkedResourcesByIdsListTest" runstate="Runnable" result="Failed" duration="0.000620" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.setLinkedResourcesByIdsListTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 190]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1-1018" name="setLinkedResourceTest" fullname="Business.Tests.ActivityTests.setLinkedResourceTest" runstate="Runnable" result="Failed" duration="0.000594" asserts="0">
+            <failure>
+              <message><![CDATA[]]></message>
+              <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Business.Tests.ActivityTests.setLinkedResourceTest() in c:\Dev\SVN\Business.Tests\ActivityTests.cs:line 118]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

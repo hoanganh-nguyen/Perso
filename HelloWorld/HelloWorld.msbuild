@@ -1,24 +1,88 @@
-Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-         DefaultTargets="Compile">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="CI">
   <PropertyGroup>
     <Configuration>Debug</Configuration>
     <Platform>AnyCPU</Platform>
     <DefineSolutionProperties>false</DefineSolutionProperties>
-
+	<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+	<MSBuildRuntimeVersion>4.0.30319</MSBuildRuntimeVersion>
     <!-- General Paths -->
     <RootPath>$(MSBuildProjectDirectory)</RootPath>
-    <SrcPath>$(RootPath)\src</SrcPath>
+    <SrcPath>$(RootPath)</SrcPath>
+    <BuildSolutionFile>$(MSBuildProjectName).sln</BuildSolutionFile>
     <ReportsPath>$(RootPath)\reports</ReportsPath>
     <ToolsPath>$(RootPath)\tools</ToolsPath>
     <Packages>$(SrcPath)\packages</Packages>
-  </PropertyGroup>
+    <MSBuildExtensionsPath>$(ToolsPath)\MSBuild\MSBuild.Extension.Pack</MSBuildExtensionsPath>
+    <!-- The tools path for the MSBuild Community Tasks Pack -->
+    <MSBuildCommunityExtensionsPath>$(ToolsPath)\MSBuild\MSBuild.Community.Tasks</MSBuildCommunityExtensionsPath>
+    
+	<!-- NUnit -->
+    <!-- The tools path for NUnit -->
+    <NUnitPath>tools\NUnit</NUnitPath>
+    <!-- NUnit report name and location -->
+    <NUnitOuputFile>reports\nunit-result.xml;format=nunit2</NUnitOuputFile>
+	
+	 <!-- OpenCover -->
+    <!-- The tools path for OpenCover -->
+    <OpenCoverPath>tools\OpenCover</OpenCoverPath>
+    <OpenCoverReportGenPath>tools\ReportGenerator</OpenCoverReportGenPath>
+    <!-- OpenCover report name and location -->
+    <OpenCoverOuputFile>reports\coverage-output.xml</OpenCoverOuputFile>
+	
+	<!-- Cobertura-->
+	<CoberturaPath>tools\OpenCoverToCoberturaConverter</CoberturaPath>
+	<CoberturaOutputFile>reports\cobertura-output.xml</CoberturaOutputFile>
+	
+   </PropertyGroup>
 
-  <Target Name="Compile">
-    <Message Importance="high" Text="Compiling projects"/>
-    <MSBuild Projects="$(SrcPath)\MyProject.Core\MyProject.Core.csproj"
-             Properties="Configuration=$(Configuration);Platform=$(Platform)" />
-    <MSBuild Projects="$(SrcPath)\MyProject.Web\MyProject.Web.csproj;$(SrcPath)\MyProject.Win\MyProject.Win.csproj"
-             Properties="Configuration=$(Configuration);Platform=$(Platform)"
-             BuildInParallel="true" />
+  <!-- <Import Project="$(MSBuildCommunityExtensionsPath)\MSBuild.Community.Tasks.Targets" /> -->
+  <UsingTask AssemblyFile="$(MSBuildCommunityExtensionsPath)\MSBuild.Community.Tasks.dll" TaskName="NUnit"/>
+  <!-- Include the MSBuild Extension Pack NUnit Task -->
+  <UsingTask AssemblyFile="$(MSBuildExtensionsPath)\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.CodeQuality.NUnit"/>
+  <!-- Include the MSBuild Extension Pack AssemblyInfo Task -->
+  <UsingTask AssemblyFile="$(MSBuildExtensionsPath)\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.Framework.AssemblyInfo"/>
+  
+  <Target Name="Clean">
+    <!-- Remove the reports directory if it already exists from a previous build -->
+    <RemoveDir Directories="$(ReportsPath)" Condition="Exists('$(ReportsPath)')" />
+    <!-- Create the reports directory for this builds output -->
+    <MakeDir Directories="$(ReportsPath)" />
+    <!-- Clean the source code projects -->
+    <MSBuild Projects="$(BuildSolutionFile)" ContinueOnError="false" Targets="Clean" Properties="Configuration=$(Configuration)" />
   </Target>
+  <Target Name="Compile" DependsOnTargets="Clean">
+    <Message Importance="high" Text="Compiling projects" />
+    <MSBuild Projects="$(BuildSolutionFile)" ContinueOnError="false" Properties="Configuration=$(Configuration)">
+      <Output ItemName="BuildOutput" TaskParameter="TargetOutputs" />
+    </MSBuild>
+  </Target>
+  
+  <!-- The Test Target, runs unit tests on the compiled source code via NUnit -->
+  <Target Name="Test" DependsOnTargets="Clean;Compile">
+    <Message Importance="high" Text="Run unit tests projects" />
+    <!-- Include all assemblies that end in Tests.dll (This is convention based) -->
+    <CreateItem Include="**\Bin\Debug\*Tests*.dll" >
+      <Output TaskParameter="Include" ItemName="TestAssemblies" />
+    </CreateItem>
+	<Exec Command="cd $(RootPath)"/>
+    <Exec Command="tools\NUnit\nunit3-console.exe @(TestAssemblies,' ') --result:$(NUnitOuputFile)"/>
+  </Target>
+  <!-- The Code Coverage Target, checks code coverage using opencover and NUnit, the
+            task generates both a coverage report and the test report -->
+  <Target Name="CodeCoverage" DependsOnTargets="Clean;Compile">
+    <Message Importance="high" Text="Code coverage" />
+    <!-- Include all assemblies that end in Tests.dll (This is convention based) -->
+    <CreateItem Include="**\Bin\Debug\*Tests*.dll" >
+        <Output TaskParameter="Include" ItemName="TestAssemblies" />
+    </CreateItem>
+	<Exec Command="cd $(RootPath)"/>
+    <!-- Execute opencover -->
+    <Exec Command="$(OpenCoverPath)\OpenCover.Console.exe -register:user -target:&quot;tools\NUnit\nunit3-console.exe&quot; -targetargs:&quot;@(TestAssemblies, ' ') --result:$(NUnitOuputFile)&quot; -filter:&quot;+[*]* -[*.Tests]*&quot; -output:$(OpenCoverOuputFile)" />
+    <!-- Use ReportGenerator Tool to build an xml Summary -->
+	<Message Importance="high" Text="Generate reports" />
+	<Exec command="$(OpenCoverReportGenPath)\ReportGenerator.exe -reports:&quot;$(OpenCoverOuputFile)&quot; -targetdir:&quot;$(ReportsPath)" />
+</Target>
+<!-- The CI build task that pulls the other tasks together and includes assembly labelling that pulls in the CI servers build number -->
+<Target Name="CI" DependsOnTargets="Clean;Compile;CodeCoverage">
+</Target>
 </Project>

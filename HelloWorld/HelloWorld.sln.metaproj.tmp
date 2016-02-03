@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore')" />
+  <Import Project="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\before.HelloWorld.sln.targets" Condition="exists('C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\before.HelloWorld.sln.targets')" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>HelloWorld.sln</SolutionFileName>
+    <SolutionName>HelloWorld</SolutionName>
+    <SolutionPath>C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '4.0' or '$(MSBuildToolsVersion)' == '12.0')">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemGroup>
+    <SolutionConfiguration Include="Debug|Any CPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|Any CPU">
+      <Configuration>Release</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter')" />
+  <Import Project="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\after.HelloWorld.sln.targets" Condition="exists('C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\after.HelloWorld.sln.targets')" />
+  <Target Name="Build" />
+  <Target Name="Rebuild" />
+  <Target Name="Clean" />
+  <Target Name="Publish" />
+</Project>

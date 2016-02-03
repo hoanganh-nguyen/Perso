@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.0.5813.39036" clr-version="4.0.30319.42000" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.277776">
+  <command-line><![CDATA["C:\Dev\ci_test\tools\NUnit\nunit3-console.exe" HelloWorld.Tests\bin\Debug\HelloWorld.Tests.dll HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1002" name="HelloWorld.Tests.dll" fullname="C:\Dev\ci_test\HelloWorld.Tests\bin\Debug\HelloWorld.Tests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.116385" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.0.5813.39031" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Dev\ci_test" machine-name="ODESYS-CDS-11" user="ha.nguyen" user-domain="CDS-SG" culture="fr-FR" uiculture="fr-FR" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Dev\ci_test" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4912" />
+      <property name="_APPDOMAIN" value="test-domain-HelloWorld.Tests.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1003" name="HelloWorld" fullname="HelloWorld" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.086805" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="1-1004" name="Tests" fullname="HelloWorld.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.086500" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestFixture" id="1-1000" name="FizzBuzzTest" fullname="HelloWorld.Tests.FizzBuzzTest" classname="HelloWorld.Tests.FizzBuzzTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.084408" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="1-1001" name="TestGetFizzBuzz" fullname="HelloWorld.Tests.FizzBuzzTest.TestGetFizzBuzz" methodname="TestGetFizzBuzz" classname="HelloWorld.Tests.FizzBuzzTest" runstate="Runnable" seed="798259755" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:54Z" duration="0.071690" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+  <test-suite type="Assembly" id="2-1002" name="HelloWorld.Core.Tests.dll" fullname="C:\Dev\ci_test\HelloWorld.Core.Tests\bin\Debug\HelloWorld.Core.Tests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.081098" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.0.5813.39031" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Dev\ci_test" machine-name="ODESYS-CDS-11" user="ha.nguyen" user-domain="CDS-SG" culture="fr-FR" uiculture="fr-FR" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Dev\ci_test" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7236" />
+      <property name="_APPDOMAIN" value="test-domain-HelloWorld.Core.Tests.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="2-1003" name="HelloWorld" fullname="HelloWorld" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.049280" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="2-1004" name="Core" fullname="HelloWorld.Core" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.047552" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestSuite" id="2-1005" name="Tests" fullname="HelloWorld.Core.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.045978" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="2-1000" name="Class1" fullname="HelloWorld.Core.Tests.Class1" classname="HelloWorld.Core.Tests.Class1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.041796" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="2-1001" name="DoTest" fullname="HelloWorld.Core.Tests.Class1.DoTest" methodname="DoTest" classname="HelloWorld.Core.Tests.Class1" runstate="Runnable" seed="798259755" result="Passed" start-time="2016-02-03 12:28:53Z" end-time="2016-02-03 12:28:53Z" duration="0.007340" asserts="0" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

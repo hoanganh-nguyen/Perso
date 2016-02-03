@@ -1,10 +1,5 @@
-c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
-c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
-c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
-c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
-c:\users\hoang-anh.nguyen\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
-C:\Users\hoang-anh.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
-C:\Users\hoang-anh.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
-C:\Users\hoang-anh.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
-C:\Users\hoang-anh.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
-C:\Users\hoang-anh.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Dev\ci_test\HelloWorld\bin\Debug\HelloWorld.dll
+C:\Dev\ci_test\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Dev\ci_test\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Dev\ci_test\HelloWorld\obj\Debug\HelloWorld.dll
+C:\Dev\ci_test\HelloWorld\obj\Debug\HelloWorld.pdb

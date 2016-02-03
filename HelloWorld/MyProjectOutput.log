@@ -1,0 +1,284 @@
+La génération a démarré 01/02/2016 10:51:56.
+Environnement au début de la génération :
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\ha.nguyen\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ODESYS-CDS-11
+ComSpec = C:\Windows\system32\cmd.exe
+DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\
+ExtensionSdkDir = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs
+FPPUILang = en-US
+FP_NO_HOST_CHECK = NO
+Framework40Version = v4.0
+FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+FrameworkDIR32 = C:\Windows\Microsoft.NET\Framework\
+FrameworkVersion = v4.0.30319
+FrameworkVersion32 = v4.0.30319
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\
+HOMEDRIVE = C:
+HOMEPATH = \Users\ha.nguyen
+INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;
+LIB = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;
+LIBPATH = C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral;
+LOCALAPPDATA = C:\Users\ha.nguyen\AppData\Local
+LOGONSERVER = \\ODESSRV01
+MSBuildEmitSolution = 1
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+NUMBER_OF_PROCESSORS = 4
+OnlineServices = Online Services
+OOBEUILang = fr-FR
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\cURL\bin;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PCBRAND = Pavilion
+Platform = BPC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\
+PTSMInstallPath_X86 = c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\HA33C6~1.NGU\AppData\Local\Temp
+TMP = C:\Users\HA33C6~1.NGU\AppData\Local\Temp
+USERDNSDOMAIN = CDS-SG.LOCAL
+USERDOMAIN = CDS-SG
+USERNAME = ha.nguyen
+USERPROFILE = C:\Users\ha.nguyen
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VCINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+VisualStudioVersion = 12.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+windir = C:\Windows
+WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\
+WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+Projet "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" sur le nœud 1 (go cible(s)).
+Propriétés initiales :
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\ha.nguyen\AppData\Roaming
+AspNetConfiguration = Debug
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ODESYS-CDS-11
+ComSpec = C:\Windows\system32\cmd.exe
+Configuration = Debug
+CurrentSolutionConfigurationContents = <SolutionConfiguration>
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\
+ExtensionSdkDir = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs
+FP_NO_HOST_CHECK = NO
+FPPUILang = en-US
+Framework40Version = v4.0
+FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+FrameworkDIR32 = C:\Windows\Microsoft.NET\Framework\
+FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+FrameworkVersion = v4.0.30319
+FrameworkVersion32 = v4.0.30319
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\
+HOMEDRIVE = C:
+HOMEPATH = \Users\ha.nguyen
+INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;
+LIB = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;
+LIBPATH = C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral;
+LOCALAPPDATA = C:\Users\ha.nguyen\AppData\Local
+LOGONSERVER = \\ODESSRV01
+MSBuildAssemblyVersion = 12.0
+MSBuildBinPath = C:\Program Files (x86)\MSBuild\12.0\bin
+MSBuildEmitSolution = 1
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildFrameworkToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsRoot = C:\Windows\Microsoft.NET\Framework\
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld
+MSBuildProjectDirectoryNoRoot = Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld
+MSBuildProjectExtension = .metaproj
+MSBuildProjectFile = HelloWorld.sln.metaproj
+MSBuildProjectFullPath = C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj
+MSBuildProjectName = HelloWorld.sln
+MSBuildRuntimeVersion = 4.0.30319
+MSBuildStartupDirectory = C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld
+MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
+MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
+MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+MSBuildToolsVersion = 12.0
+MSBuildUserExtensionsPath = C:\Users\ha.nguyen\AppData\Local\Microsoft\MSBuild
+NUMBER_OF_PROCESSORS = 4
+OnlineServices = Online Services
+OOBEUILang = fr-FR
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\cURL\bin;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PCBRAND = Pavilion
+Platform = Any CPU
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\
+PTSMInstallPath_X86 = c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\
+PUBLIC = C:\Users\Public
+SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+SESSIONNAME = Console
+SolutionDir = C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\
+SolutionExt = .sln
+SolutionFileName = HelloWorld.sln
+SolutionName = HelloWorld
+SolutionPath = C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln
+SystemDrive = C:
+SystemRoot = C:\Windows
+TargetFrameworkVersion = v4.0
+TEMP = C:\Users\HA33C6~1.NGU\AppData\Local\Temp
+TMP = C:\Users\HA33C6~1.NGU\AppData\Local\Temp
+USERDNSDOMAIN = CDS-SG.LOCAL
+USERDOMAIN = CDS-SG
+USERNAME = ha.nguyen
+USERPROFILE = C:\Users\ha.nguyen
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VCINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+VisualStudioVersion = 12.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\
+WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+
+Éléments initiaux :
+ProjectReference
+    C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj
+        ToolsVersion = 
+        SkipNonexistentProjects = False
+        AdditionalProperties = Configuration=Debug; Platform=AnyCPU
+        Configuration = Debug
+        Platform = AnyCPU
+    C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj
+        ToolsVersion = 
+        SkipNonexistentProjects = False
+        AdditionalProperties = Configuration=Debug; Platform=AnyCPU
+        Configuration = Debug
+        Platform = AnyCPU
+    C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj
+        ToolsVersion = 
+        SkipNonexistentProjects = False
+        AdditionalProperties = Configuration=Debug; Platform=AnyCPU
+        Configuration = Debug
+        Platform = AnyCPU
+    C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj
+        ToolsVersion = 
+        SkipNonexistentProjects = False
+        AdditionalProperties = Configuration=Debug; Platform=AnyCPU
+        Configuration = Debug
+        Platform = AnyCPU
+SolutionConfiguration
+    Debug|Any CPU
+        Configuration = Debug
+        Platform = Any CPU
+        Content = <SolutionConfiguration>
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    Release|Any CPU
+        Configuration = Release
+        Platform = Any CPU
+        Content = <SolutionConfiguration>
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+
+Génération à l'aide des outils version "2.0".
+Cible "ValidateSolutionConfiguration : (IdCible:2)" dans le fichier "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj" du projet "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" (point d'entrée) :
+Tâche "Error" ignorée en raison d'une fausse condition ; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')) a été évaluée comme (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' != 'true')).
+Tâche "Warning" ignorée en raison d'une fausse condition ; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')) a été évaluée comme (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{84DDAD60-0025-43B8-873B-E6F2EC0C14AC}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld\HelloWorld.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C6129178-3408-4A97-86FB-ABBF85FB473C}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Tests\HelloWorld.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A5C17B9D-032E-409C-8AB1-41AFF597D9B5}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Specs\HelloWorld.Specs.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{FF4A5D60-22FB-40F3-BD71-130E2B23B89B}" AbsolutePath="C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.Core.Tests\HelloWorld.Core.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' == 'true')).
+Utilisation de la tâche "Message" à partir de l'assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tâche "Message" (IDTâche:2)
+  Paramètre de tâche :Text=Génération de la configuration de solution "Debug|Any CPU". (IDTâche:2)
+  Génération de la configuration de solution "Debug|Any CPU". (IDTâche:2)
+Exécution de la tâche "Message" terminée. (IDTâche:2)
+Génération de la cible "ValidateSolutionConfiguration" terminée dans le projet "HelloWorld.sln". : (IdCible:2)
+Cible "ValidateToolsVersions : (IdCible:3)" dans le fichier "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj" du projet "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" (point d'entrée) :
+Tâche "Error" ignorée en raison d'une fausse condition ; ('$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')) a été évaluée comme ('12.0' == '2.0' and ('' != '2.0' and '' != '')).
+Génération de la cible "ValidateToolsVersions" terminée dans le projet "HelloWorld.sln". : (IdCible:3)
+Cible "ValidateProjects : (IdCible:4)" dans le fichier "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj" du projet "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" (point d'entrée) :
+Génération de la cible "ValidateProjects" terminée dans le projet "HelloWorld.sln". : (IdCible:4)
+C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj : error MSB4057: La cible "go" n'existe pas dans le projet. [C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln]
+Génération du projet "C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" terminée (go cible(s)) -- ÉCHEC.
+
+
+Résumé de performance des projets :
+       47 ms  C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln   1 appels
+                 47 ms  go                                         1 appels
+
+Résumé de performance cible :
+        0 ms  ValidateProjects                           1 appels
+        3 ms  ValidateToolsVersions                      1 appels
+       15 ms  ValidateSolutionConfiguration              1 appels
+
+Résumé de performance des tâches :
+        2 ms  Message                                    1 appels
+
+ÉCHEC de la build.
+
+"C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln" (go cible) (1) ->
+  C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln.metaproj : error MSB4057: La cible "go" n'existe pas dans le projet. [C:\Users\ha.nguyen\Documents\GitHub\hoanganh-nguyen.github.io\HelloWorld\HelloWorld.sln]
+
+    0 Avertissement(s)
+    1 Erreur(s)
+
+Temps écoulé 00:00:00.09
